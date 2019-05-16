@@ -63,7 +63,7 @@
         .card-img-top {
 
             width: 100%;
-            height: 100%;
+            height: 250px;
             size: 100%;
 
         }
@@ -130,7 +130,7 @@
             padding: 15px;
             padding-top: 70px;
             padding-bottom: 70px;
-            
+
 
         }
 
@@ -141,17 +141,16 @@
         }
 
         #coins-img {
-        
+
             height: 300px;
 
         }
 
-        #bills-card-text  {
+        #bills-card-text {
 
             padding-bottom: 24px;
 
         }
-        
     </style>
 </head>
 
@@ -167,22 +166,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse" href="#jumbotron">Home
+                        <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#demo">Demo</a>
+                    <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse" href="#demo">Demo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#testimonies">Testimonies</a>
+                    <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse"
+                        href="#testimonies">Testimonies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#footer">Download</a>
+                    <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse"
+                        href="#footer">Download</a>
                 </li>
             </ul>
-            
+
         </div>
     </nav>
 
@@ -232,22 +234,28 @@
                 <img src="bills.jpg" class="card-img-top img-fluid" alt="Responsive image">
                 <div class="card-body">
                     <h5 class="card-title"><i class="fas fa-dollar-sign"></i> Keep Track Of Your Bills</h5>
-                    <p class="card-text" id="bills-card-text">MountainUs has a handy bill tracker that will notify you when your bills are close to being due. You also have the option of setting up auto-pay, right in the app!</p>
+                    <p class="card-text" id="bills-card-text">MountainUs has a handy bill tracker that will notify you
+                        when your bills are close to being due. You also have the option of setting up auto-pay, right
+                        in the app!</p>
                 </div>
             </div>
             <div class="card">
                 <img src="shopping.jpg" class="card-img-top img-fluid" alt="Responsive image">
                 <div class="card-body">
-                    <h5 class="card-title"><i class="fas fa-cart-arrow-down"></i> Keep Your Shopping Habits In Check!</h5>
-                    <p class="card-text" id="shopping-card-text">MountainUs keeps track of your shopping habits and creates personalized budgets that allow you to cut back on excess spending.
+                    <h5 class="card-title"><i class="fas fa-cart-arrow-down"></i> Keep Your Shopping Habits In Check!
+                    </h5>
+                    <p class="card-text" id="shopping-card-text">MountainUs keeps track of your shopping habits and
+                        creates personalized budgets that allow you to cut back on excess spending.
                     </p>
                 </div>
             </div>
             <div class="card">
-                <img src="coins.jpg" class="card-img-top img-fluid" id="coins-img" alt="Responsive Image">
+                <img src="coins.jpg" class="card-img-top img-fluid" alt="Responsive Image">
                 <div class="card-body">
                     <h5 class="card-title"><i class="fas fa-piggy-bank"></i> Save When You Spend!</h5>
-                    <p class="card-text">MountainUs allows you to round up your change each time you spend and place it in a savings account. You can also specify a percentage of your income to be placed in the savings account too!</p>
+                    <p class="card-text">MountainUs allows you to round up your change each time you spend and place it
+                        in a savings account. You can also specify a percentage of your income to be placed in the
+                        savings account too!</p>
                 </div>
             </div>
         </div>
@@ -307,21 +315,26 @@
                 <img src="woman.jpg" class="card-img-top img-fluid" alt="Responsive image">
                 <div class="card-body">
                     <h5 class="card-title">Rebecca, 28</h5>
-                    <p class="card-text">"Before I downloaded, MountainUs, my paychecks were nearly gone the day I got them. I couldn't keep my bills straight, and was often late on payments, racking up late fees! Now, I don't miss a single payment and I have much more spending money!"</p>
+                    <p class="card-text">"Before I downloaded, MountainUs, my paychecks were nearly gone the day I got
+                        them. I couldn't keep my bills straight, and was often late on payments, racking up late fees!
+                        Now, I don't miss a single payment and I have much more spending money!"</p>
                 </div>
             </div>
             <div class="card">
                 <img src="man.jpg" class="card-img-top img-fluid" alt="Responsive image">
                 <div class="card-body">
                     <h5 class="card-title">Terry, 25</h5>
-                    <p class="card-text">"I've always had a hard time budgeting, spending too much on fast food and going out with friends. With MountainUs, I was able to split my income into manageable sections and always knew how much money I could spend on leisure!"</p>
+                    <p class="card-text">"I've always had a hard time budgeting, spending too much on fast food and
+                        going out with friends. With MountainUs, I was able to split my income into manageable sections
+                        and always knew how much money I could spend on leisure!"</p>
                 </div>
             </div>
             <div class="card">
                 <img src="woman2.jpg" class="card-img-top img-fluid" alt="Responsive image">
                 <div class="card-body">
                     <h5 class="card-title">Ginger, 26</h5>
-                    <p class="card-text" id="ginger-card-text">"I've always been just okay at budgeting, but thanks to MountainUs' amazing visual aids, everything is simple and easy to read at just a glance!"</p>
+                    <p class="card-text" id="ginger-card-text">"I've always been just okay at budgeting, but thanks to
+                        MountainUs' amazing visual aids, everything is simple and easy to read at just a glance!"</p>
                 </div>
             </div>
         </div>
@@ -383,6 +396,16 @@
                 });
 
             } // End if
+
+        });
+
+        $(document).on("click", ".navbar-collapse.in", function (e) {
+
+            if ($(e.target).is('a:not(".dropdown-toggle")')) {
+
+                $(this).collapse('hide');
+
+            }
 
         });
 
